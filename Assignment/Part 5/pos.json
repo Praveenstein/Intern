@@ -1,0 +1,35 @@
+{
+  "1": {
+    "Transaction": {"ID": 125,
+    "customer": {"ID": 24,
+                 "name": "Rahul",
+                 "phone": 123456789},
+      "staff": {"ID": 44,
+                 "name": "Akash",
+                 "phone": 123456798},
+      "branch": {"ID": 424,
+                 "name": "Chennai",
+                 "phone": 123546798},
+      "date": "2020-09-02"
+    },
+    "Product": {"ID": 3216544,
+                 "name": "phone"}
+  },
+  "2": {
+    "Transaction": {"ID": 145,
+    "customer": {"ID": 34,
+                 "name": "Steve",
+                 "phone": 123465789},
+      "staff": {"ID": 44,
+                 "name": "Akash",
+                 "phone": 123456798},
+      "branch": {"ID": 424,
+                 "name": "Chennai",
+                 "phone": 123546798},
+      "date": "2020-09-01"
+    },
+    "Product": {"ID": 3216533,
+                 "name": "laptop"}
+  }
+
+}
