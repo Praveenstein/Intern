@@ -1,19 +1,22 @@
+"""
+Script to generate branch response
+"""
+
 import json
 import random
 
-data = {"Branch": []}
+data = []
 
 product_price = [id_ for id_ in range(100000, 100021)]
 
 for i in range(20):
 
-    inventory = random.randint(5000, 10000)
-    p_id = product_price[i]
+    inventory = random.randint(0, 10000)
     dic = {
-            "P_Id": p_id,
-            "Inventory-Left": inventory
+            "P_Id": product_price[i],
+            "Inventory": inventory
         }
-    data["Branch"].append(dic)
+    data.append(dic)
 
 print(data)
 
