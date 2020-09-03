@@ -1,84 +1,82 @@
-{
-    "Branch": [
-        {
-            "P_Id": 100000,
-            "Inventory-Left": 8184
-        },
-        {
-            "P_Id": 100001,
-            "Inventory-Left": 6377
-        },
-        {
-            "P_Id": 100002,
-            "Inventory-Left": 9433
-        },
-        {
-            "P_Id": 100003,
-            "Inventory-Left": 6044
-        },
-        {
-            "P_Id": 100004,
-            "Inventory-Left": 9554
-        },
-        {
-            "P_Id": 100005,
-            "Inventory-Left": 6093
-        },
-        {
-            "P_Id": 100006,
-            "Inventory-Left": 7750
-        },
-        {
-            "P_Id": 100007,
-            "Inventory-Left": 6254
-        },
-        {
-            "P_Id": 100008,
-            "Inventory-Left": 9833
-        },
-        {
-            "P_Id": 100009,
-            "Inventory-Left": 7250
-        },
-        {
-            "P_Id": 100010,
-            "Inventory-Left": 8848
-        },
-        {
-            "P_Id": 100011,
-            "Inventory-Left": 5524
-        },
-        {
-            "P_Id": 100012,
-            "Inventory-Left": 7202
-        },
-        {
-            "P_Id": 100013,
-            "Inventory-Left": 7606
-        },
-        {
-            "P_Id": 100014,
-            "Inventory-Left": 6828
-        },
-        {
-            "P_Id": 100015,
-            "Inventory-Left": 9016
-        },
-        {
-            "P_Id": 100016,
-            "Inventory-Left": 6561
-        },
-        {
-            "P_Id": 100017,
-            "Inventory-Left": 7145
-        },
-        {
-            "P_Id": 100018,
-            "Inventory-Left": 6312
-        },
-        {
-            "P_Id": 100019,
-            "Inventory-Left": 7727
-        }
-    ]
-}
+[
+    {
+        "P_Id": 100000,
+        "Inventory": 4141
+    },
+    {
+        "P_Id": 100001,
+        "Inventory": 279
+    },
+    {
+        "P_Id": 100002,
+        "Inventory": 1269
+    },
+    {
+        "P_Id": 100003,
+        "Inventory": 8572
+    },
+    {
+        "P_Id": 100004,
+        "Inventory": 317
+    },
+    {
+        "P_Id": 100005,
+        "Inventory": 9958
+    },
+    {
+        "P_Id": 100006,
+        "Inventory": 7251
+    },
+    {
+        "P_Id": 100007,
+        "Inventory": 9558
+    },
+    {
+        "P_Id": 100008,
+        "Inventory": 7961
+    },
+    {
+        "P_Id": 100009,
+        "Inventory": 1765
+    },
+    {
+        "P_Id": 100010,
+        "Inventory": 3544
+    },
+    {
+        "P_Id": 100011,
+        "Inventory": 6964
+    },
+    {
+        "P_Id": 100012,
+        "Inventory": 4726
+    },
+    {
+        "P_Id": 100013,
+        "Inventory": 7763
+    },
+    {
+        "P_Id": 100014,
+        "Inventory": 7945
+    },
+    {
+        "P_Id": 100015,
+        "Inventory": 7276
+    },
+    {
+        "P_Id": 100016,
+        "Inventory": 3639
+    },
+    {
+        "P_Id": 100017,
+        "Inventory": 4689
+    },
+    {
+        "P_Id": 100018,
+        "Inventory": 7742
+    },
+    {
+        "P_Id": 100019,
+        "Inventory": 4620
+    }
+]
