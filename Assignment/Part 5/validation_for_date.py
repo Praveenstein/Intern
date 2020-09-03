@@ -10,6 +10,9 @@ from pprint import pprint
 class DateSchema(Schema):
     T_Id = fields.Integer(validate=validate.Range(100000, 999999), required=True)
     P_Id = fields.Integer(validate=validate.Range(100000, 100020), required=True)
+    C_Id = fields.Integer(validate=validate.Range(100000, 101000), required=True)
+    S_Id = fields.Integer(validate=validate.Range(100000, 100100), required=True)
+    B_Id = fields.Integer(validate=validate.Range(100000, 100010), required=True)
     Quantity = fields.Integer(required=True)
     Price_Per_item = fields.Float(required=True)
     Total_Price = fields.Float(required=True)
