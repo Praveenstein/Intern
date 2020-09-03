@@ -1,1 +1,5 @@
-print("Assignment Part 5")
+import json
+
+with open("pos.json", 'r') as file:
+    data = json.load(file)
+print(data)

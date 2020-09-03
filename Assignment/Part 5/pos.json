@@ -1,35 +1,32 @@
 {
-  "1": {
-    "Transaction": {"ID": 125,
-    "customer": {"ID": 24,
-                 "name": "Rahul",
-                 "phone": 123456789},
-      "staff": {"ID": 44,
-                 "name": "Akash",
-                 "phone": 123456798},
-      "branch": {"ID": 424,
-                 "name": "Chennai",
-                 "phone": 123546798},
-      "date": "2020-09-02"
-    },
-    "Product": {"ID": 3216544,
-                 "name": "phone"}
-  },
-  "2": {
-    "Transaction": {"ID": 145,
-    "customer": {"ID": 34,
-                 "name": "Steve",
-                 "phone": 123465789},
-      "staff": {"ID": 44,
-                 "name": "Akash",
-                 "phone": 123456798},
-      "branch": {"ID": 424,
-                 "name": "Chennai",
-                 "phone": 123546798},
-      "date": "2020-09-01"
-    },
-    "Product": {"ID": 3216533,
-                 "name": "laptop"}
-  }
-
+  "Purchases": [
+    {
+    "Purchase_ID": 3216,
+    "Transaction_ID": 2315,
+    "Customer_ID": 24,
+    "Customer_name": "Rahul",
+    "Customer_phone": 123456789,
+    "Staff_ID": 24,
+    "Staff_name": "Steve",
+    "Staff_phone": 123446789,
+    "Branch_ID": 24,
+    "Branch_name": "Chennai",
+    "Branch_phone": 123452789,
+    "Product_ID": 665,
+    "Product_name": "Phone"},
+    {
+    "Purchase_ID": 1356,
+    "Transaction_ID": 8465,
+    "Customer_ID": 42,
+    "Customer_name": "Akash",
+    "Customer_phone": 123455789,
+    "Staff_ID": 36,
+    "Staff_name": "Prasanth",
+    "Staff_phone": 123756789,
+    "Branch_ID": 55,
+    "Branch_name": "Coimbatore",
+    "Branch_phone": 123432789,
+    "Product_ID": 635,
+    "Product_name": "Laptop"}
+  ]
 }
