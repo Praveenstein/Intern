@@ -58,11 +58,11 @@ class StaffSchema(Schema):
 
 
 with open('staff.json', 'r') as json_file:
-    data = json.load(json_file)
+    data_ = json.load(json_file)
 
 
 try:
-    staff = StaffSchema(many=True).load(data)
+    staff = StaffSchema(many=True).load(data_)
     print(staff)
 except ValidationError as err:
     pprint(err.messages)
