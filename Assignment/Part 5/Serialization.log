@@ -1,0 +1,9 @@
+2020-09-04 11:06:58 INFO     __main__        Task Done Successfully
+2020-09-04 11:09:06 ERROR    __main__        Missing data to do requested task
+Insufficient Data (Missing Inventory Details) to get Branch details
+Traceback (most recent call last):
+  File "D:/Profession/Intern/Assignments/Codes/Test/Assignment/Part 5/class.py", line 314, in main
+    date.branch_details()
+  File "D:/Profession/Intern/Assignments/Codes/Test/Assignment/Part 5/class.py", line 74, in branch_details
+    raise TypeError("Insufficient Data (Missing Inventory Details) to get Branch details")
+TypeError: Insufficient Data (Missing Inventory Details) to get Branch details
