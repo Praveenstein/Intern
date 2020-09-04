@@ -42,6 +42,8 @@ import logging.config
 # External Packages
 from marshmallow import Schema, fields, post_load, ValidationError, validates, validate
 
+__author__ = 'praveen@gyandata.com'
+
 
 class TransactionSystem:
     """This class contains the data received from the web API and has methods to perform operations"""
