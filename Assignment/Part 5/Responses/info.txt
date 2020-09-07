@@ -1,0 +1,5 @@
+branch- Id:100000 - An example response from web api which returns data corresponding to the branch Id
+customer- Id:100000 - An example response from web api which returns data corresponding to the customer Id
+staff- Id:100000 - An example response from web api which returns data corresponding to the staff Id
+date- An example response from web api which returns all transaction details between 01/01/2017 and 01/01/2020
+staff_testing - An example response for invalid data.

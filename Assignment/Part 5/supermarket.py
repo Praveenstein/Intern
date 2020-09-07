@@ -49,7 +49,7 @@ def main():
     log()
 
     try:
-        with open('date_4.json', 'r') as json_file:
+        with open('Responses\\date.json', 'r') as json_file:
             data = json.load(json_file)
 
         trans_schema = TransactionSystemSchema()

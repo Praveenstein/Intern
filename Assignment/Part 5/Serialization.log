@@ -1,3 +1,0 @@
-2020-09-07 14:17:00,621 -ERROR - __main__- supermarket.py - main - [Errno 2] No such file or directory: 'stasff_testing.json'
-2020-09-07 14:17:07,275 -ERROR - __main__- supermarket.py - main - Validation Error Occurred While Loading data
-{'_schema': ['Invalid input type.']}
