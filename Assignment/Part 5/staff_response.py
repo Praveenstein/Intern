@@ -8,11 +8,13 @@ CUSTOMERS = []
 STAFF = []
 PRODUCTS = []
 PURCHASES = []
+staff_ = 100000
 with open('date_4.json', 'r') as json_file:
     data = json.load(json_file)
 
+
 for trans in data['TRANSACTIONS']:
-    if trans['C_Id'] == 100000:
+    if trans['S_Id'] == 100000:
         TRANSACTIONS.append(trans)
 branch_id = set()
 customers = set()

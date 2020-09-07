@@ -51,5 +51,5 @@ for product in data['PRODUCTS']:
 data = {'STAFF': STAFF, 'CUSTOMERS': CUSTOMERS, 'BRANCHES': BRANCHES, 'TRANSACTIONS': TRANSACTIONS,
         'PRODUCTS': PRODUCTS, 'PURCHASES': PURCHASES}
 
-with open('staff_3.json', 'w') as json_file:
+with open('customer_3.json', 'w') as json_file:
     json.dump(data, json_file, indent=4)

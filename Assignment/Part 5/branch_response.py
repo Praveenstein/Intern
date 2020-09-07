@@ -8,25 +8,26 @@ CUSTOMERS = []
 STAFF = []
 PRODUCTS = []
 PURCHASES = []
+branch_ = 100000
 with open('date_4.json', 'r') as json_file:
     data = json.load(json_file)
 
+for branch in data['BRANCHES']:
+    if branch['B_Id'] == branch_:
+        BRANCHES.append(branch)
+
+
 for trans in data['TRANSACTIONS']:
-    if trans['C_Id'] == 100000:
+    if trans['B_Id'] == branch_:
         TRANSACTIONS.append(trans)
-branch_id = set()
+staffs = set()
 customers = set()
 t_id = set()
-staffs = set()
 for trans in TRANSACTIONS:
-    branch_id.add(trans['B_Id'])
+    staffs.add(trans['S_Id'])
     customers.add(trans['C_Id'])
     t_id.add(trans['T_Id'])
-    staffs.add(trans['S_Id'])
 
-for branch in data['BRANCHES']:
-    if branch['B_Id'] in branch_id:
-        BRANCHES.append(branch)
 
 for staff in data['STAFF']:
     if staff['Id'] in staffs:
@@ -51,5 +52,5 @@ for product in data['PRODUCTS']:
 data = {'STAFF': STAFF, 'CUSTOMERS': CUSTOMERS, 'BRANCHES': BRANCHES, 'TRANSACTIONS': TRANSACTIONS,
         'PRODUCTS': PRODUCTS, 'PURCHASES': PURCHASES}
 
-with open('staff_3.json', 'w') as json_file:
+with open('branch_3.json', 'w') as json_file:
     json.dump(data, json_file, indent=4)
