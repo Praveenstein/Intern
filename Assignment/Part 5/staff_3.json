@@ -1,0 +1,626 @@
+{
+    "STAFF": [
+        {
+            "Id": 100000,
+            "name": "staff100000",
+            "Email": "staff100000@gmail.com",
+            "B_Id": 100000
+        }
+    ],
+    "CUSTOMERS": [
+        {
+            "Id": 100042,
+            "name": "customer100042",
+            "Email": "customer100042@gmail.com"
+        },
+        {
+            "Id": 100045,
+            "name": "customer100045",
+            "Email": "customer100045@gmail.com"
+        },
+        {
+            "Id": 100047,
+            "name": "customer100047",
+            "Email": "customer100047@gmail.com"
+        },
+        {
+            "Id": 100052,
+            "name": "customer100052",
+            "Email": "customer100052@gmail.com"
+        },
+        {
+            "Id": 100059,
+            "name": "customer100059",
+            "Email": "customer100059@gmail.com"
+        },
+        {
+            "Id": 100066,
+            "name": "customer100066",
+            "Email": "customer100066@gmail.com"
+        },
+        {
+            "Id": 100068,
+            "name": "customer100068",
+            "Email": "customer100068@gmail.com"
+        },
+        {
+            "Id": 100069,
+            "name": "customer100069",
+            "Email": "customer100069@gmail.com"
+        },
+        {
+            "Id": 100076,
+            "name": "customer100076",
+            "Email": "customer100076@gmail.com"
+        },
+        {
+            "Id": 100082,
+            "name": "customer100082",
+            "Email": "customer100082@gmail.com"
+        },
+        {
+            "Id": 100085,
+            "name": "customer100085",
+            "Email": "customer100085@gmail.com"
+        },
+        {
+            "Id": 100086,
+            "name": "customer100086",
+            "Email": "customer100086@gmail.com"
+        },
+        {
+            "Id": 100087,
+            "name": "customer100087",
+            "Email": "customer100087@gmail.com"
+        },
+        {
+            "Id": 100089,
+            "name": "customer100089",
+            "Email": "customer100089@gmail.com"
+        },
+        {
+            "Id": 100094,
+            "name": "customer100094",
+            "Email": "customer100094@gmail.com"
+        }
+    ],
+    "BRANCHES": [
+        {
+            "B_Id": 100000,
+            "name": "branch100000",
+            "Pr_Id": 100000,
+            "Inventory": 6353
+        },
+        {
+            "B_Id": 100000,
+            "name": "branch100000",
+            "Pr_Id": 100001,
+            "Inventory": 4107
+        },
+        {
+            "B_Id": 100000,
+            "name": "branch100000",
+            "Pr_Id": 100002,
+            "Inventory": 1083
+        },
+        {
+            "B_Id": 100000,
+            "name": "branch100000",
+            "Pr_Id": 100003,
+            "Inventory": 5831
+        },
+        {
+            "B_Id": 100000,
+            "name": "branch100000",
+            "Pr_Id": 100004,
+            "Inventory": 5941
+        },
+        {
+            "B_Id": 100000,
+            "name": "branch100000",
+            "Pr_Id": 100005,
+            "Inventory": 6886
+        },
+        {
+            "B_Id": 100000,
+            "name": "branch100000",
+            "Pr_Id": 100006,
+            "Inventory": 1838
+        },
+        {
+            "B_Id": 100000,
+            "name": "branch100000",
+            "Pr_Id": 100007,
+            "Inventory": 2535
+        },
+        {
+            "B_Id": 100000,
+            "name": "branch100000",
+            "Pr_Id": 100008,
+            "Inventory": 8153
+        },
+        {
+            "B_Id": 100000,
+            "name": "branch100000",
+            "Pr_Id": 100009,
+            "Inventory": 4152
+        },
+        {
+            "B_Id": 100000,
+            "name": "branch100000",
+            "Pr_Id": 100010,
+            "Inventory": 2870
+        },
+        {
+            "B_Id": 100000,
+            "name": "branch100000",
+            "Pr_Id": 100011,
+            "Inventory": 4911
+        },
+        {
+            "B_Id": 100000,
+            "name": "branch100000",
+            "Pr_Id": 100012,
+            "Inventory": 1346
+        },
+        {
+            "B_Id": 100000,
+            "name": "branch100000",
+            "Pr_Id": 100013,
+            "Inventory": 9206
+        },
+        {
+            "B_Id": 100000,
+            "name": "branch100000",
+            "Pr_Id": 100014,
+            "Inventory": 6426
+        },
+        {
+            "B_Id": 100000,
+            "name": "branch100000",
+            "Pr_Id": 100015,
+            "Inventory": 6888
+        },
+        {
+            "B_Id": 100000,
+            "name": "branch100000",
+            "Pr_Id": 100016,
+            "Inventory": 1145
+        },
+        {
+            "B_Id": 100000,
+            "name": "branch100000",
+            "Pr_Id": 100017,
+            "Inventory": 5669
+        },
+        {
+            "B_Id": 100000,
+            "name": "branch100000",
+            "Pr_Id": 100018,
+            "Inventory": 7695
+        },
+        {
+            "B_Id": 100000,
+            "name": "branch100000",
+            "Pr_Id": 100019,
+            "Inventory": 135
+        },
+        {
+            "B_Id": 100000,
+            "name": "branch100000",
+            "Pr_Id": 100020,
+            "Inventory": 4394
+        }
+    ],
+    "TRANSACTIONS": [
+        {
+            "T_Id": 100373,
+            "DateTime": "2017-07-09 22:53:58",
+            "C_Id": 100045,
+            "S_Id": 100000,
+            "B_Id": 100000
+        },
+        {
+            "T_Id": 100391,
+            "DateTime": "2017-07-21 17:13:54",
+            "C_Id": 100094,
+            "S_Id": 100000,
+            "B_Id": 100000
+        },
+        {
+            "T_Id": 100438,
+            "DateTime": "2017-08-17 14:15:48",
+            "C_Id": 100086,
+            "S_Id": 100000,
+            "B_Id": 100000
+        },
+        {
+            "T_Id": 100444,
+            "DateTime": "2017-08-22 09:07:37",
+            "C_Id": 100059,
+            "S_Id": 100000,
+            "B_Id": 100000
+        },
+        {
+            "T_Id": 100463,
+            "DateTime": "2017-08-30 06:29:36",
+            "C_Id": 100082,
+            "S_Id": 100000,
+            "B_Id": 100000
+        },
+        {
+            "T_Id": 100492,
+            "DateTime": "2017-09-14 11:22:12",
+            "C_Id": 100068,
+            "S_Id": 100000,
+            "B_Id": 100000
+        },
+        {
+            "T_Id": 100564,
+            "DateTime": "2017-10-28 10:27:35",
+            "C_Id": 100087,
+            "S_Id": 100000,
+            "B_Id": 100000
+        },
+        {
+            "T_Id": 100696,
+            "DateTime": "2018-01-12 11:12:44",
+            "C_Id": 100042,
+            "S_Id": 100000,
+            "B_Id": 100000
+        },
+        {
+            "T_Id": 100701,
+            "DateTime": "2018-01-16 02:19:35",
+            "C_Id": 100047,
+            "S_Id": 100000,
+            "B_Id": 100000
+        },
+        {
+            "T_Id": 101001,
+            "DateTime": "2018-06-28 15:57:17",
+            "C_Id": 100085,
+            "S_Id": 100000,
+            "B_Id": 100000
+        },
+        {
+            "T_Id": 101284,
+            "DateTime": "2018-12-11 09:04:36",
+            "C_Id": 100069,
+            "S_Id": 100000,
+            "B_Id": 100000
+        },
+        {
+            "T_Id": 101626,
+            "DateTime": "2019-06-12 08:28:45",
+            "C_Id": 100052,
+            "S_Id": 100000,
+            "B_Id": 100000
+        },
+        {
+            "T_Id": 101652,
+            "DateTime": "2019-06-22 01:31:15",
+            "C_Id": 100066,
+            "S_Id": 100000,
+            "B_Id": 100000
+        },
+        {
+            "T_Id": 101813,
+            "DateTime": "2019-09-18 04:59:56",
+            "C_Id": 100076,
+            "S_Id": 100000,
+            "B_Id": 100000
+        },
+        {
+            "T_Id": 101891,
+            "DateTime": "2019-11-03 19:41:32",
+            "C_Id": 100089,
+            "S_Id": 100000,
+            "B_Id": 100000
+        }
+    ],
+    "PRODUCTS": [
+        {
+            "Id": 100000,
+            "name": "Product100000",
+            "Price": 6776
+        },
+        {
+            "Id": 100001,
+            "name": "Product100001",
+            "Price": 2060
+        },
+        {
+            "Id": 100003,
+            "name": "Product100003",
+            "Price": 6667
+        },
+        {
+            "Id": 100004,
+            "name": "Product100004",
+            "Price": 2467
+        },
+        {
+            "Id": 100007,
+            "name": "Product100007",
+            "Price": 5833
+        },
+        {
+            "Id": 100008,
+            "name": "Product100008",
+            "Price": 9062
+        },
+        {
+            "Id": 100009,
+            "name": "Product100009",
+            "Price": 2302
+        },
+        {
+            "Id": 100010,
+            "name": "Product100010",
+            "Price": 7472
+        },
+        {
+            "Id": 100011,
+            "name": "Product100011",
+            "Price": 7338
+        },
+        {
+            "Id": 100012,
+            "name": "Product100012",
+            "Price": 6467
+        },
+        {
+            "Id": 100013,
+            "name": "Product100013",
+            "Price": 9448
+        },
+        {
+            "Id": 100014,
+            "name": "Product100014",
+            "Price": 7028
+        },
+        {
+            "Id": 100015,
+            "name": "Product100015",
+            "Price": 8451
+        },
+        {
+            "Id": 100016,
+            "name": "Product100016",
+            "Price": 5847
+        },
+        {
+            "Id": 100017,
+            "name": "Product100017",
+            "Price": 2747
+        },
+        {
+            "Id": 100018,
+            "name": "Product100018",
+            "Price": 7826
+        },
+        {
+            "Id": 100019,
+            "name": "Product100019",
+            "Price": 3652
+        },
+        {
+            "Id": 100020,
+            "name": "Product100020",
+            "Price": 3509
+        }
+    ],
+    "PURCHASES": [
+        {
+            "P_Id": 100746,
+            "T_Id": 100373,
+            "Pr_Id": 100008,
+            "Quantity": 5,
+            "T_price": 45310
+        },
+        {
+            "P_Id": 100747,
+            "T_Id": 100373,
+            "Pr_Id": 100016,
+            "Quantity": 10,
+            "T_price": 58470
+        },
+        {
+            "P_Id": 100782,
+            "T_Id": 100391,
+            "Pr_Id": 100014,
+            "Quantity": 2,
+            "T_price": 14056
+        },
+        {
+            "P_Id": 100783,
+            "T_Id": 100391,
+            "Pr_Id": 100003,
+            "Quantity": 10,
+            "T_price": 66670
+        },
+        {
+            "P_Id": 100876,
+            "T_Id": 100438,
+            "Pr_Id": 100010,
+            "Quantity": 6,
+            "T_price": 44832
+        },
+        {
+            "P_Id": 100877,
+            "T_Id": 100438,
+            "Pr_Id": 100015,
+            "Quantity": 3,
+            "T_price": 25353
+        },
+        {
+            "P_Id": 100888,
+            "T_Id": 100444,
+            "Pr_Id": 100018,
+            "Quantity": 9,
+            "T_price": 70434
+        },
+        {
+            "P_Id": 100889,
+            "T_Id": 100444,
+            "Pr_Id": 100001,
+            "Quantity": 9,
+            "T_price": 18540
+        },
+        {
+            "P_Id": 100926,
+            "T_Id": 100463,
+            "Pr_Id": 100020,
+            "Quantity": 10,
+            "T_price": 35090
+        },
+        {
+            "P_Id": 100927,
+            "T_Id": 100463,
+            "Pr_Id": 100018,
+            "Quantity": 7,
+            "T_price": 54782
+        },
+        {
+            "P_Id": 100984,
+            "T_Id": 100492,
+            "Pr_Id": 100019,
+            "Quantity": 10,
+            "T_price": 36520
+        },
+        {
+            "P_Id": 100985,
+            "T_Id": 100492,
+            "Pr_Id": 100015,
+            "Quantity": 5,
+            "T_price": 42255
+        },
+        {
+            "P_Id": 101128,
+            "T_Id": 100564,
+            "Pr_Id": 100012,
+            "Quantity": 2,
+            "T_price": 12934
+        },
+        {
+            "P_Id": 101129,
+            "T_Id": 100564,
+            "Pr_Id": 100015,
+            "Quantity": 6,
+            "T_price": 50706
+        },
+        {
+            "P_Id": 101392,
+            "T_Id": 100696,
+            "Pr_Id": 100017,
+            "Quantity": 8,
+            "T_price": 21976
+        },
+        {
+            "P_Id": 101393,
+            "T_Id": 100696,
+            "Pr_Id": 100020,
+            "Quantity": 10,
+            "T_price": 35090
+        },
+        {
+            "P_Id": 101402,
+            "T_Id": 100701,
+            "Pr_Id": 100019,
+            "Quantity": 3,
+            "T_price": 10956
+        },
+        {
+            "P_Id": 101403,
+            "T_Id": 100701,
+            "Pr_Id": 100015,
+            "Quantity": 2,
+            "T_price": 16902
+        },
+        {
+            "P_Id": 102002,
+            "T_Id": 101001,
+            "Pr_Id": 100009,
+            "Quantity": 1,
+            "T_price": 2302
+        },
+        {
+            "P_Id": 102003,
+            "T_Id": 101001,
+            "Pr_Id": 100013,
+            "Quantity": 9,
+            "T_price": 85032
+        },
+        {
+            "P_Id": 102568,
+            "T_Id": 101284,
+            "Pr_Id": 100003,
+            "Quantity": 1,
+            "T_price": 6667
+        },
+        {
+            "P_Id": 102569,
+            "T_Id": 101284,
+            "Pr_Id": 100020,
+            "Quantity": 1,
+            "T_price": 3509
+        },
+        {
+            "P_Id": 103252,
+            "T_Id": 101626,
+            "Pr_Id": 100015,
+            "Quantity": 1,
+            "T_price": 8451
+        },
+        {
+            "P_Id": 103253,
+            "T_Id": 101626,
+            "Pr_Id": 100001,
+            "Quantity": 6,
+            "T_price": 12360
+        },
+        {
+            "P_Id": 103304,
+            "T_Id": 101652,
+            "Pr_Id": 100011,
+            "Quantity": 4,
+            "T_price": 29352
+        },
+        {
+            "P_Id": 103305,
+            "T_Id": 101652,
+            "Pr_Id": 100020,
+            "Quantity": 9,
+            "T_price": 31581
+        },
+        {
+            "P_Id": 103626,
+            "T_Id": 101813,
+            "Pr_Id": 100004,
+            "Quantity": 4,
+            "T_price": 9868
+        },
+        {
+            "P_Id": 103627,
+            "T_Id": 101813,
+            "Pr_Id": 100008,
+            "Quantity": 3,
+            "T_price": 27186
+        },
+        {
+            "P_Id": 103782,
+            "T_Id": 101891,
+            "Pr_Id": 100007,
+            "Quantity": 3,
+            "T_price": 17499
+        },
+        {
+            "P_Id": 103783,
+            "T_Id": 101891,
+            "Pr_Id": 100000,
+            "Quantity": 9,
+            "T_price": 60984
+        }
+    ]
+}
